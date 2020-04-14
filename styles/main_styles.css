@@ -764,7 +764,7 @@ section
 	width: 100%;
 	height: 100%;
 	z-index: 10;
-	background: #31124b;
+	background: #7665C6;
 }
 .home_slider
 {
@@ -791,7 +791,7 @@ section
 .home_slider_content
 {
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
@@ -935,7 +935,7 @@ section
 {
 	width: 100%;
 	height: 192px;
-	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+	background: linear-gradient(to right, #fa9e1b, #7665C6);
 	z-index: 10;
 }
 .search_tabs_container
@@ -1146,149 +1146,7 @@ section
 	text-transform: uppercase;
 }
 
-/*********************************
-7. Intro
-*********************************/
 
-.intro
-{
-	width: 100%;
-	padding-top: 100px;
-	padding-bottom: 105px;
-}
-.intro_title
-{
-	font-weight: 700;
-	color: #2d2c2c;
-	margin-top: -14px;
-}
-.intro_text
-{
-	margin-top: 21px;
-}
-.intro_text p
-{
-	font-size: 24px;
-	font-style: italic;
-	color: #929191;
-	line-height: 1.336;
-	margin-bottom: 0px;
-}
-.intro_items
-{
-	margin-top: 69px;
-}
-.intro_item
-{
-	width: 100%;
-	height: 425px;
-}
-.intro_item_overlay
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 2;
-	background: rgba(49, 18, 75, 0.55);
-}
-.intro_item_background
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	z-index: 1;
-}
-.intro_item_content
-{
-	width: 100%;
-	height: 100%;
-	z-index: 3;
-}
-.intro_date
-{
-	position: absolute;
-	top: 35px;
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	transform: translateX(-50%);
-	width: auto;
-	padding-left: 39px;
-	padding-right: 39px;
-	white-space: nowrap;
-	font-size: 13px;
-	font-weight: 400;
-	color: #FFFFFF;
-	line-height: 27px;
-	background: #fa9e1c;
-	border-radius: 14px;
-}
-.intro_button
-{
-	position: absolute;
-	bottom: 51px;
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	transform: translateX(-50%);
-}
-.intro_center
-{
-
-}
-.intro_center h1
-{
-	font-size: 59px;
-	font-weight: 700;
-	color: #FFFFFF;
-	letter-spacing: -0.05em;
-}
-.intro_price
-{
-	font-size: 14px;
-	font-weight: 400;
-	color: #FFFFFF;
-	margin-top: -4px;
-}
-.rating
-{
-	margin-top: 10px;
-}
-.rating i
-{
-	font-size: 19px;
-	margin-right: 4px;
-}
-.rating i:last-child
-{
-	margin-right: 0px;
-}
-.rating_1 i:first-child{color: #ffeb8d;}
-.rating_2 i:first-child{color: #ffeb8d;}
-.rating_2 i:nth-child(2){color: #fed46b;}
-.rating_3 i:first-child{color: #ffeb8d;}
-.rating_3 i:nth-child(2){color: #fed46b;}
-.rating_3 i:nth-child(3){color: #fbb53d;}
-.rating_4 i:first-child{color: #ffeb8d;}
-.rating_4 i:nth-child(2){color: #fed46b;}
-.rating_4 i:nth-child(3){color: #fbb53d;}
-.rating_4 i:nth-child(4){color: #fa9e1b;}
-.rating_5 i:first-child{color: #ffeb8d;}
-.rating_5 i:nth-child(2){color: #fed46b;}
-.rating_5 i:nth-child(3){color: #fbb53d;}
-.rating_5 i:nth-child(4){color: #fa9e1b;}
-.rating_5 i:nth-child(5){color: #ef910a;}
 
 /*********************************
 8. CTA
@@ -1754,6 +1612,7 @@ section
 {
 	width: 100%;
 	padding-bottom: 105px;
+    right: -105px;    
 }
 .contact_background
 {
