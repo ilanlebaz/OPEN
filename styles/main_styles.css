@@ -152,6 +152,8 @@ h4::selection,
 h5::selection, 
 h6::selection,
 {
+    
+
 	
 }
 .form-control
@@ -818,6 +820,17 @@ section
 	color: #FFFFFF;
 	margin-top: -34px;
 }
+
+.home_slider_content h1:nth-child(3)
+{
+
+    font-size: 20px;
+    font-weight: 900;
+    color: #FFFFFF;
+	margin-top: 5px;
+}
+
+
 .home_slider_button
 {
 	margin-top: 70px;
