@@ -14,7 +14,6 @@
     <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
     <link rel="stylesheet" type="text/css" href="styles/responsive.css">
     <link rel="stylesheet" type="text/css" href="styles/elements_styles.css">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
 
   </head>
 
@@ -44,6 +43,7 @@
                 <div class="user_box ml-auto">
                   <div class="user_box_login user_box_link"><a href="#">connexion</a></div>
                   <div class="user_box_register user_box_link"><a href="#">inscription</a></div>
+
                 </div>
               </div>
             </div>
@@ -59,9 +59,9 @@
                 <div class="main_nav_container mx-auto">
                   <ul class="main_nav_list">
                     <li class="main_nav_item"><a href="#">accueil</a></li>
-                    <li class="main_nav_item"><a href="about.html">about us</a></li>
-                    <li class="main_nav_item"><a href="offers.html">offers</a></li>
-                    <li class="main_nav_item"><a href="blog.html">news</a></li>
+                    <li class="main_nav_item"><a href="about.html">qui sommes nous</a></li>
+                    <li class="main_nav_item"><a href="offers.html">nos offres</a></li>
+                    <li class="main_nav_item"><a href="blog.html">nouveautés</a></li>
                     <li class="main_nav_item"><a href="contact.html">contact</a></li>
                   </ul>
                 </div>
@@ -136,7 +136,7 @@
                   <h1>OPEN</h1>
                   <h1>the world</h1>
                   <h1>Faites de nouvelles rencontres, trouvez un logement facilement et kiffez.</h1>
-       
+        
                 </div>
               </div>
             </div>
@@ -172,37 +172,53 @@
               <div class="search_panel active">
                 <form action="#" id="search_form_1" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
                   <div class="search_item">
-                    <div>destination</div>
+                      
+                    <div>Lieux</div>
                     <input type="text" class="destination search_input" required="required">
-                  </div>
-                  <div class="search_item">
-                    <div>depart</div>
-                    <input type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
-
-                  </div>
-                  <div class="search_item">
-                    <div>retour</div>
+                    </div>
+            
+                    <div class="search_item">
+                    <div>Arrivées</div>
                     <input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
                   </div>
+                    
+                     <div class="search_item">
+                    <div>Retours</div>
+                    <input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
+                  </div>
+                    
+                 <div class="search_item">
+                    <div>transport</div>
+                    <select name="adults" id="adults_1" class="dropdown_item_select search_input">
+                      <option>co-voiturage</option>
+                      <option>train</option>
+                      <option>avion</option>
+                    </select>
+                  </div>
+                      
                   <div class="search_item">
-                    <div>adults</div>
+                    <div>personnes</div>
                     <select name="adults" id="adults_1" class="dropdown_item_select search_input">
                       <option>01</option>
                       <option>02</option>
                       <option>03</option>
                     </select>
                   </div>
-                  <div class="search_item">
-                    <div>children</div>
-                    <select name="children" id="children_1" class="dropdown_item_select search_input">
-                      <option>0</option>
-                      <option>02</option>
-                      <option>03</option>
+                      
+                    <div class="search_item">
+                    <div>hébergement</div>
+                    <select name="adults" id="adults_1" class="dropdown_item_select search_input">
+                      <option>hôtel</option>
+                      <option>camping</option>
+                      <option>appartement</option>
+                      <option>maison</option>
                     </select>
                   </div>
+                    
                   <button class="button search_button">search<span></span><span></span><span></span></button>
                 </form>
               </div>
+                  
               <!-- Search Panel -->
 
             </div>
@@ -211,7 +227,16 @@
       </div>
 
       <!-- Offers -->
-
+ 
+         <div class="offers">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <h2 class="section_title">Notre pourquoi</h2>
+            </div>
+          </div>
+          <div class="row offers_items">
+              
       <div class="offers">
         <div class="container">
           <div class="row">
@@ -510,12 +535,47 @@
                   <!-- Testimonial Item -->
                   <div class="owl-item">
                     <div class="test_item">
-                      <div class="test_image"><img src="images/snake.jpg" alt="https://unsplash.com/@anniegray"></div>
+                      <div class="test_image"><img src="images/snake.jpg" alt="https://unsplash.com/@anniegray" height="450"></div>
                       <div class="test_content_container">
                         <div class="test_content">
                           <div class="test_item_info">
                             <div class="test_name">DJ SNAKE</div>
-                            <div class="test_date">May 24, 2017</div>
+                          </div>
+                          <div class="test_quote_title">" Best holliday ever "</div>
+                          <p class="test_quote_text">Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    
+                     <!-- Testimonial Item -->
+                  <div class="owl-item">
+                    <div class="test_item">
+                      <div class="test_image"><img src="images/booba.jpg" alt=""height="450"></div>
+                      <div class="test_content_container">
+                        <div class="test_content">
+                          <div class="test_item_info">
+                            <div class="test_name">BOOBA</div>
+
+                          </div>
+                          <div class="test_quote_title">" Best holliday ever "</div>
+                          <p class="test_quote_text">Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                    
+                    
+                      <!-- Testimonial Item -->
+                  <div class="owl-item">
+                    <div class="test_item">
+                      <div class="test_image"><img src="images/travis.jpg" alt="https://unsplash.com/@seefromthesky" height="450"></div>
+                      <div class="test_content_container">
+                        <div class="test_content">
+                          <div class="test_item_info">
+                            <div class="test_name">TRAVIS SCOTT</div>
+
                           </div>
                           <div class="test_quote_title">" Best holliday ever "</div>
                           <p class="test_quote_text">Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
@@ -527,7 +587,7 @@
                   <!-- Testimonial Item -->
                   <div class="owl-item">
                     <div class="test_item">
-                      <div class="test_image"><img src="images/calvin.jpg" alt="https://unsplash.com/@tschax"style="height: 475px;"></div>
+                      <div class="test_image"><img src="images/calvin.jpg" alt="https://unsplash.com/@tschax" height="450"></div>
                       <div class="test_content_container">
                         <div class="test_content">
                           <div class="test_item_info">
@@ -541,64 +601,14 @@
                     </div>
                   </div>
 
-                  <!-- Testimonial Item -->
-                  <div class="owl-item">
-                    <div class="test_item">
-                      <div class="test_image"><img src="images/test_3.jpg" alt="https://unsplash.com/@seefromthesky"></div>
-                      <div class="test_content_container">
-                        <div class="test_content">
-                          <div class="test_item_info">
-                            <div class="test_name">MARTIN GARRIX</div>
+                
 
-                          </div>
-                          <div class="test_quote_title">" Best holliday ever "</div>
-                          <p class="test_quote_text">Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                
 
                   <!-- Testimonial Item -->
                   <div class="owl-item">
                     <div class="test_item">
-                      <div class="test_image"><img src="images/test_2.jpg" alt=""></div>
-                      <div class="test_icon"><img src="images/island_t.png" alt=""></div>
-                      <div class="test_content_container">
-                        <div class="test_content">
-                          <div class="test_item_info">
-                            <div class="test_name">carla smith</div>
-
-                          </div>
-                          <div class="test_quote_title">" Best holliday ever "</div>
-                          <p class="test_quote_text">Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Testimonial Item -->
-                  <div class="owl-item">
-                    <div class="test_item">
-                      <div class="test_image"><img src="images/test_1.jpg" alt=""></div>
-                      <div class="test_icon"><img src="images/backpack.png" alt=""></div>
-                      <div class="test_content_container">
-                        <div class="test_content">
-                          <div class="test_item_info">
-                            <div class="test_name">carla smith</div>
-
-                          </div>
-                          <div class="test_quote_title">" Best holliday ever "</div>
-                          <p class="test_quote_text">Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Testimonial Item -->
-                  <div class="owl-item">
-                    <div class="test_item">
-                      <div class="test_image"><img src="images/test_3.jpg" alt=""></div>
-                      <div class="test_icon"><img src="images/kayak.png" alt=""></div>
+                      <div class="test_image"><img src="images/test_3.jpg" alt="" height="450"></div>
                       <div class="test_content_container">
                         <div class="test_content">
                           <div class="test_item_info">
