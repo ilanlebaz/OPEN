@@ -14,12 +14,7 @@
     <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
     <link rel="stylesheet" type="text/css" href="styles/responsive.css">
     <link rel="stylesheet" type="text/css" href="styles/elements_styles.css">
- <!-- youhou-->
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
   </head>
 
   <body>
@@ -177,35 +172,23 @@
               <div class="search_panel active">
                 <form action="#" id="search_form_1" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
                     
-                  <div class="search_item">
-                    <div>Destination</div>
-                    <select name="adults" id="adults_1" class="dropdown_item_select search_input">
-                      <option>France</option>
-                      <option>Europe</option>
-                      <option>Asie</option><option>Afrique</option><option>Amérique du Nord</option><option>Amérique du Sud</option>
-                    </select>
+                  <div class="search_item">  
+                    <div>destination</div>
+                    <input type="text" class="destination search_input" required="required">
+                    </div>
+                
+            
+
+                    
+                     <div class="search_item">
+                    <div>Retours</div>
+                    <input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
                   </div>
-                 <div class="search_item">
-							<div>DATE BELINDA</div>
-
-							<input type="text" name="daterange" value="01/01/2018 - 01/15/2018" />
-							<script>
-							$.noConflict();
-							jQuery(document).ready(function ($) {
-
-							$(function() {
-							  $('input[name="daterange"]').daterangepicker({
-							    opens: 'left'
-							  }, function(start, end, label) {
-							    console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
-							  });
-
-							  });
-							});
-							</script>
-
-							</div>  
-
+                    
+                                  <div class="search_item">
+                    <div>dates</div>
+                    <input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
+                  </div>
                     
                  <div class="search_item">
                     <div>transport</div>
@@ -217,11 +200,11 @@
                     </div>
                     
                 <div class="search_item">
-                    <div>Nombre de personnes</div>
+                    <div>adultes</div>
                     <select name="adults" id="adults_1" class="dropdown_item_select search_input">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option><option>4</option><option>5</option>
+                      <option>01</option>
+                      <option>02</option>
+                      <option>03</option>
                     </select>
                   </div>
 
@@ -265,7 +248,7 @@
                   <div class="col-lg-6">
                     <div class="offers_image_container">
                       <!-- Image by https://unsplash.com/@kensuarez -->
-                      <div class="offers_image_background" style="background-image:url(francofolies%202.jpg)"></div>
+                      <div class="offers_image_background" style="background-image:url(images/francofolies.jpg)"></div>
                       <div class="offer_name"><a href="#">Francofolies</a></div>
                     </div>
                   </div>
@@ -279,7 +262,7 @@
                         <i></i>
                         <i></i>
                       </div>
-                      <p class="offers_text">Géant des festivals français, Les Francofolies de La Rochelle seront de retour l'été prochain pour cinq jours de célébration musicale.Avec la présence de Nekfeu, PNL , The Avener et de plein d'autres.</p>
+                      <p class="offers_text">En raison de la crise sanitaire et suite à l'interdiction des festivals en France jusqu'à la mi-juillet 2020, la nouvelle édition des...</p>
                       <div class="offers_icons">
                         <ul class="offers_icons_list">
                           <li class="offers_icons_item"><img src="images/post.png" alt=""></li>
@@ -302,13 +285,13 @@
                   <div class="col-lg-6">
                     <div class="offers_image_container">
                       <!-- Image by https://unsplash.com/@kensuarez -->
-                      <div class="offers_image_background" style="background-image:url(afronation.jpg)"></div>
-                      <div class="offer_name"><a href="#">Afro Nation</a></div>
+                      <div class="offers_image_background" style="background-image:url(images/marvellous.jpg)"></div>
+                      <div class="offer_name"><a href="#">Marvellous</a></div>
                     </div>
                   </div>
                   <div class="col-lg-6">
                     <div class="offers_content">
-                      <div class="offers_price">Du 17 juillet au 19 juillet 2020</div>
+                      <div class="offers_price">Du 10 juillet au 14 juillet 2020</div>
                       <div class="rating_r rating_r_4 offers_rating">
                         <i></i>
                         <i></i>
@@ -316,7 +299,7 @@
                         <i></i>
                         <i></i>
                       </div>
-                      <p class="offers_text">Afro Nation Festival invite une programmation composée de rythmes d'afrobeats, de hip-hop, de dancehall à illuminer les ruines d'un fort au Portugal. Avec la présence de Tory Lanez, Wizkid, Aya Nakamura et d'autres artistes.</p>
+                      <p class="offers_text">En raison de la crise sanitaire et suite à l'interdiction des festivals en France jusqu'à la mi-juillet 2020, la nouvelle édition des...</p>
                       <div class="offers_icons">
                         <ul class="offers_icons_list">
                           <li class="offers_icons_item"><img src="images/post.png" alt=""></li>
@@ -345,7 +328,7 @@
                   </div>
                   <div class="col-lg-6">
                     <div class="offers_content">
-                      <div class="offers_price">Du 19 juin au 21 juin 2020</div>
+                      <div class="offers_price">Du 10 juillet au 14 juillet 2020</div>
                       <div class="rating_r rating_r_4 offers_rating">
                         <i></i>
                         <i></i>
@@ -353,7 +336,7 @@
                         <i></i>
                         <i></i>
                       </div>
-                      <p class="offers_text">Le temps de trois jours, le festival invite un public toujours plus nombreux à vibrer aux sons de plus de 80 concerts en tout genre. L’occasion de profiter d’artistes de renommée mondiale. Retrouvez -M-, The Black Eyed Peas, Suzane et plein d'autres artistes.</p>
+                      <p class="offers_text">En raison de la crise sanitaire et suite à l'interdiction des festivals en France jusqu'à la mi-juillet 2020, la nouvelle édition des...</p>
                       <div class="offers_icons">
                         <ul class="offers_icons_list">
                           <li class="offers_icons_item"><img src="images/post.png" alt=""></li>
@@ -375,13 +358,13 @@
                   <div class="col-lg-6">
                     <div class="offers_image_container">
                       <!-- Image by https://unsplash.com/@kensuarez -->
-                      <div class="offers_image_background" style="background-image:url(coachella.jpg)"></div>
-                      <div class="offer_name"><a href="#">Coachella</a></div>
+                      <div class="offers_image_background" style="background-image:url(images/lola.jpg)"></div>
+                      <div class="offer_name"><a href="#">Lolapalooza</a></div>
                     </div>
                   </div>
                   <div class="col-lg-6">
                     <div class="offers_content">
-                      <div class="offers_price">Du 9 octobre au 11 octobre 2020</div>
+                      <div class="offers_price">Du 10 juillet au 14 juillet 2020</div>
                       <div class="rating_r rating_r_4 offers_rating">
                         <i></i>
                         <i></i>
@@ -389,7 +372,7 @@
                         <i></i>
                         <i></i>
                       </div>
-                      <p class="offers_text">Coachella est le roi des festivals éclectiques ! Chaque année, cette célébration musicale sans pareille attire les amoureux de festivals en Californie. Retrouvez Calvin Harris, Franck Ocean, Lana Del Rey et pleins d'autres artistes.</p>
+                      <p class="offers_text">En raison de la crise sanitaire et suite à l'interdiction des festivals en France jusqu'à la mi-juillet 2020, la nouvelle édition des...</p>
                       <div class="offers_icons">
                         <ul class="offers_icons_list">
                           <li class="offers_icons_item"><img src="images/post.png" alt=""></li>
@@ -553,8 +536,8 @@
                           <div class="test_item_info">
                             <div class="test_name">DJ SNAKE</div>
                           </div>
-                          <div class="test_quote_title">Le Prodige français "</div>
-                          <p class="test_quote_text">À 33 ans, DJ Snake  compte parmi les artistes les plus influents de sa génération. Comptez sur lui pour ambiencer les festivals.</p>
+                          <div class="test_quote_title">" Best holliday ever "</div>
+                          <p class="test_quote_text">Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
                         </div>
                       </div>
                     </div>
@@ -570,8 +553,8 @@
                             <div class="test_name">BOOBA</div>
 
                           </div>
-                          <div class="test_quote_title">Le Roi du rap français</div>
-                          <p class="test_quote_text">Il est au sommet  des charts depuis plus 20 ans,Booba est  un artiste au style unique, qui a marqué le rap français de son empreinte indélébile.</p>
+                          <div class="test_quote_title">" Best holliday ever "</div>
+                          <p class="test_quote_text">Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
                         </div>
                       </div>
                     </div>
@@ -589,8 +572,8 @@
                             <div class="test_name">TRAVIS SCOTT</div>
 
                           </div>
-                          <div class="test_quote_title">La nouvelle pépité du rap</div>
-                          <p class="test_quote_text">Aux sentiers battus, la nouvelle coqueluche du rap préfère les chemins de traverse.Travis Scott est fou, mais un fou génial.</p>
+                          <div class="test_quote_title">" Best holliday ever "</div>
+                          <p class="test_quote_text">Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
                         </div>
                       </div>
                     </div>
