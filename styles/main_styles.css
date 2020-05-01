@@ -1092,6 +1092,7 @@ align-items: center;
 	line-height: 53px;
 	padding-left: 46px;
 	padding-right: 46px;
+    margin-top: 7px;
 	background: #31124b;
 	-webkit-transform: translateY(15px);
 	-moz-transform: translateY(15px);

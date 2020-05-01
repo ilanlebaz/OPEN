@@ -172,60 +172,41 @@
 
               <!-- Search Panel -->
 
-              <div class="search_panel active">
+               <div class="search_panel active">
                 <form action="#" id="search_form_1" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
-                    
                   <div class="search_item">
-                    <div>Où-allez vous faire la fête?</div>
+                    <div>où allez-vous faire la fête ?</div>
+                    <input type="text" class="destination search_input" required="required">
+                  </div>
+                  <div class="search_item">
+                    <div>check in</div>
+                    <input type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
+
+                  </div>
+
+                  <div class="search_item">
+                    <div>personnes</div>
                     <select name="adults" id="adults_1" class="dropdown_item_select search_input">
-                      <option>France</option>
-                      <option>Europe</option>
-                      <option>Asie</option><option>Afrique</option><option>Amérique du Nord</option><option>Amérique du Sud</option>
+                      <option>01</option>
+                      <option>02</option>
+                      <option>03</option>
                     </select>
                   </div>
-                 <div class="search_item">
-							<div>DATES</div>
-
-							<input type="text" name="daterange" value="01/09/2020 - 01/11/2020" />
-							<script>
-							$.noConflict();
-							jQuery(document).ready(function ($) {
-
-							$(function() {
-							  $('input[name="daterange"]').daterangepicker({
-							    opens: 'left'
-							  }, function(start, end, label) {
-							    console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
-							  });
-
-							  });
-							});
-							</script>
-
-							</div>  
-            
-
-                    
-                 <div class="search_item">
+                  <div class="search_item">
                     <div>transport</div>
-                    <select name="adults" id="adults_1" class="dropdown_item_select search_input">
-                      <option>co-voiturage</option>
-                      <option>train</option>
-                      <option>avion</option>
+                    <select name="children" id="children_1" class="dropdown_item_select search_input">
+                      <option>0</option>
+                      <option>02</option>
+                      <option>03</option>
                     </select>
-                    </div>
-                    
-                <div class="search_item">
-                    <div>Nombre de personnes</div>
-                    <select name="adults" id="adults_1" class="dropdown_item_select search_input">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option><option>4</option><option>5</option>
+                  </div>                  <div class="search_item">
+                    <div>logement</div>
+                    <select name="children" id="children_1" class="dropdown_item_select search_input">
+                      <option>0</option>
+                      <option>02</option>
+                      <option>03</option>
                     </select>
                   </div>
-
-                  
-        
                   <button class="button search_button">search<span></span><span></span><span></span></button>
                 </form>
               </div>
