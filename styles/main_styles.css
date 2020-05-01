@@ -909,7 +909,7 @@ align-items: center;
 {
 	width: 100%;
 	height: 192px;
-	background: linear-gradient(to right, #fa9e1b, #7665C6);
+	background: #7967C2;
 	z-index: 10;
 }
 .search_tabs_container
