@@ -3,6 +3,7 @@
     position: absolute;
     left: 0;
     top: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .leaflet-container {
@@ -290,7 +291,7 @@
 
 /* general typography */
 .leaflet-container {
-    font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font: 12px/1.5 'Montserrat', sans-serif;
 }
 
 /* general toolbar styles */
@@ -356,7 +357,7 @@
 
 /* zoom control */
 .leaflet-control-zoom-in, .leaflet-control-zoom-out {
-    font: bold 18px 'Lucida Console', Monaco, monospace;
+    font: bold 18px 'Montserrat', sans-serif;
     text-indent: 1px;
 }
 
