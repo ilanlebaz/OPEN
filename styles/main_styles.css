@@ -40,22 +40,19 @@
 1. Fonts
 ***********/
 
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 
 
 
-@font-face {
-  font-family: Montserrat-Medium;
-  src: url('../fonts/montserrat/Montserrat-Medium.ttf'); 
-=======
+
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 @font-face
 {
 	font-family: 'Beyond';
 	src: url('../fonts/beyond_the_mountains.otf')  format('truetype'),
 		 url('../fonts/beyond_the_mountains.ttf')  format('opentype');
->>>>>>> parent of c4b9674... maj
 }
 
 /*********************************
@@ -72,11 +69,8 @@
 }
 body
 {
-<<<<<<< HEAD
-	font-family: 'Montserrat', sans-serif;
-=======
+
 	font-family: 'Open Sans', sans-serif;
->>>>>>> parent of c4b9674... maj
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
@@ -97,11 +91,8 @@ ul
 }
 p
 {
-<<<<<<< HEAD
-	font-family: 'Montserrat', sans-serif;;
-=======
+
 	font-family: 'Open Sans', sans-serif;
->>>>>>> parent of c4b9674... maj
 	font-size: 14px;
 	line-height: 2;
 	font-weight: 400;
@@ -158,11 +149,8 @@ h4{font-size: 18px;}
 h5{font-size: 14px;}
 h1, h2, h3, h4, h5, h6,
 {
-<<<<<<< HEAD
-	font-family: 'Montserrat', sans-serif;
-=======
+
 	font-family: 'Open Sans', sans-serif;
->>>>>>> parent of c4b9674... maj
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -478,11 +466,8 @@ align-items: center;
 }
 .main_nav_item a
 {
-<<<<<<< HEAD
-	font-family: 'Montserrat', sans-serif;
-=======
+
 	font-family: 'Open Sans', sans-serif;
->>>>>>> parent of c4b9674... maj
 	font-size: 13px;
 	font-weight: 600;
 	color: #FFFFFF;
@@ -654,7 +639,7 @@ align-items: center;
 {
 	display: inline-block;
 	position: relative;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Beyond';
 	font-size: 36px;
 	color: #FFFFFF;
 	font-weight: 400;
@@ -802,7 +787,7 @@ align-items: center;
 }
 .home_slider_content h1:nth-child(2)
 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Beyond';
 	font-size: 100px;
 	color: #FFFFFF;
 	margin-top: -34px;
@@ -1208,7 +1193,7 @@ align-items: center;
 }
 .rating_r i::before
 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'FontAwesome';
 	content: "\f006";
 	font-style: normal;
 	font-size: 19px;
@@ -1398,7 +1383,6 @@ align-items: center;
 	padding-top: 105px;
 	padding-bottom: 105px;
 	background: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
 }
 .test_border
 {
@@ -1478,7 +1462,6 @@ align-items: center;
 	font-weight: 500;
 	color: #FFFFFF;
 	padding-left: 3px;
-    font-family: 'Montserrat', sans-serif;
 }
 .test_quote_text
 {
@@ -1552,7 +1535,6 @@ align-items: center;
 	text-transform: uppercase;
     text-align: center;
     top: 70px;
-    font-family: 'Montserrat', sans-serif;
 }
 .contact_form_container
 {
@@ -1605,7 +1587,6 @@ align-items: center;
 	margin-top: 37px;
 	cursor: pointer;
     margin-left: 90px;
-    font-family: 'Montserrat', sans-serif;
 }
 .form_submit_button:hover
 {
@@ -1664,7 +1645,6 @@ align-items: center;
 	font-weight: 700;
 	color: #FFFFFF;
 	text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
 }
 
 /*********************************
@@ -1686,7 +1666,6 @@ align-items: center;
 	font-size: 14px;
 	font-weight: 600;
 	color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
 }
 .footer_social_item
 {
@@ -1702,7 +1681,6 @@ align-items: center;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 	margin-right: 9px;
-    font-family: 'Montserrat', sans-serif;
 }
 .footer_social_item:last-child
 {
@@ -1776,19 +1754,16 @@ align-items: center;
 {
 	margin-top: -4px;
 	padding-left: 1px;
-    font-family: 'Montserrat', sans-serif;
 }
 .footer_blog_title a
 {
 	font-size: 14px;
 	font-weight: 400;
 	color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
 }
 .footer_blog_title a:hover
 {
 	color: #fa9e1b;
-    font-family: 'Montserrat', sans-serif;
 }
 .footer_blog_date
 {
@@ -1796,7 +1771,6 @@ align-items: center;
 	font-weight: 400;
 	color: #fa9e1b;
 	margin-top: 7px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 /*********************************
@@ -1806,7 +1780,6 @@ align-items: center;
 .footer_tags
 {
 	margin-top: 40px;
-    font-family: 'Montserrat', sans-serif;
 }
 .tag_item
 {
@@ -1820,12 +1793,10 @@ align-items: center;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
-    font-family: 'Montserrat', sans-serif;
 }
 .tag_item:hover
 {
 	background: #fa9e1b;
-    font-family: 'Montserrat', sans-serif;
 }
 .tag_item a
 {
@@ -1836,7 +1807,6 @@ align-items: center;
 	line-height: 33px;
 	padding-left: 25px;
 	padding-right: 25px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 /*********************************
@@ -1846,12 +1816,10 @@ align-items: center;
 .contact_info_list
 {
 	margin-top: 40px;
-    font-family: 'Montserrat', sans-serif;
 }
 .contact_info_item
 {
 	margin-bottom: 22px;
-    font-family: 'Montserrat', sans-serif;
 }
 .contact_info_icon
 {
@@ -1870,13 +1838,11 @@ align-items: center;
 	color: #FFFFFF;
 	line-height: 2.14;
 	margin-top: -4px;
-    font-family: 'Montserrat', sans-serif;
 }
 .contact_info_item:hover .contact_info_text,
 .contact_info_item:hover .contact_info_text a
 {
 	color: #fa9e1b;
-    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -1899,21 +1865,80 @@ align-items: center;
 
 
 
+@font-face {
+    font-family: FreigTexProBook;
+    src: url("freight/FreigTexProBookWeb.eot");
+}
+
+@font-face {
+    font-family: FreigTexProBook;
+    src: url("freight/FreigTexProBookWeb.woff") format("woff");
+}
+
+@font-face {
+    font-family: FreigTexProBookIt;
+    src: url("freight/FreigTexProBookItWeb.eot");
+}
+
+@font-face {
+    font-family: FreigTexProBookIt;
+    src: url("freight/FreigTexProBookItWeb.woff") format("woff");
+}
+
+@font-face {
+    font-family: n001001t;
+    src: url("neuzeit/n001001tWeb.eot");
+}
+
+@font-face {
+    font-family: n001001t;
+    src: url("neuzeit/n001001tWeb.woff") format("woff");
+}
+
+@font-face {
+    font-family: n001002t;
+    src: url("neuzeit/n001002tWeb.eot");
+}
+
+@font-face {
+    font-family: n001002t;
+    src: url("neuzeit/n001002tWeb.woff") format("woff");
+}
+
+@font-face {
+    font-family: n001004t;
+    src: url("neuzeit/n001004tWeb.eot");
+}
+
+@font-face {
+    font-family: n001004t;
+    src: url("neuzeit/n001004tWeb.woff") format("woff");
+}
+
+@font-face {
+    font-family: n001006t;
+    src: url("neuzeit/n001006tWeb.eot");
+}
+
+@font-face {
+    font-family: n001006t;
+    src: url("neuzeit/n001006tWeb.woff") format("woff");
+}
 
 .clear {
     clear: both;
 }
 
 a:hover {
-    color: #31124b;
+    color: #ff9800;
 }
 
 .orange {
-    color: #31124b;
+    color: #ff9800;
 }
 
 .icon {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'fontawesome';
 }
 
 a {
@@ -1923,7 +1948,7 @@ a {
 .menu-mobile {
     display: none;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: n001004t;
     font-size: 1.286em;
     line-height: 1.4;
     text-transform: uppercase;
@@ -1985,7 +2010,7 @@ a {
 }
 
 .menu li.active a, .menu li:hover a {
-    color: #31124b;
+    color: #ff9800;
 }
 
 .menu li.first {
@@ -1997,7 +2022,7 @@ a {
 }
 
 .menu li.last a {
-    color: #31124b;
+    color: #ff9800;
 }
 
 .limiter {
@@ -2129,7 +2154,7 @@ a {
 }
 
 .more-link .more-link-icon {
-    font-family: 'Montserrat', sans-serif;
+    font-family: n001002t;
     color: #31124b;
     font-size: 3.5em;
     display: inline-block;
@@ -2142,7 +2167,7 @@ a {
     display: inline-block;
     vertical-align: middle;
     color: #212121;
-    font-family: 'Montserrat', sans-serif;
+    font-family: n001004t;
     font-size: 1.143em;
     text-transform: uppercase;
     margin-right: 10px;
@@ -2152,7 +2177,7 @@ a {
     display: inline-block;
     vertical-align: middle;
     color: #9e9e9e;
-    font-family: 'Montserrat', sans-serif;
+    font-family: n001002t;
     font-size: 1.143em;
     line-height: 3.13;
 }
@@ -2222,7 +2247,7 @@ a {
 }
 
 .small-block .small-block-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: n001006t;
     font-size: 1.714em;
     line-height: 1.25;
     text-transform: uppercase;
@@ -2273,21 +2298,21 @@ a {
 }
 
 .small-block .small-block-liste .article-side .icon {
-    color: #31124b;
+    color: #ff9800;
     font-size: 0.929em;
     font-weight: 400;
 }
 
 .small-block .small-block-liste .article-side .article-metas {
     font-size: 1.071em;
-    color: #31124b;
-    font-family: 'Montserrat', sans-serif;
+    color: #ff9800;
+    font-family: n001002t;
 }
 
 .small-block .small-block-liste .article-side .article-title {
     display: block;
     color: #5c5c5c;
-    font-family: 'Montserrat', sans-serif;
+    font-family: n001002t;
     font-size: 1.071em;
     -moz-transition: all 0.1s cubic-bezier(0.13, 0.66, 0.83, 0.67);
     -o-transition: all 0.1s cubic-bezier(0.13, 0.66, 0.83, 0.67);
@@ -2299,8 +2324,8 @@ a {
     bottom: 0;
     right: -15px;
     opacity: 0.5;
-    color: #31124b;
-    font-family: 'Montserrat', sans-serif;
+    color: #ff9800;
+    font-family: n001004t;
     font-size: 14.143em;
     line-height: 0.6;
     pointer-events: none;
@@ -2311,7 +2336,7 @@ a {
 }
 
 .small-block .small-block-liste .small-block-item {
-    font-family: 'Montserrat', sans-serif;
+    font-family: n001002t;
     font-size: 1.071em;
     line-height: 1.47;
     padding-bottom: 15px;
@@ -2360,7 +2385,7 @@ a {
 }
 
 .small-block .small-block-liste .small-block-item .small-block-item-infos .small-block-item-sub-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: n001004t;
     color: #31124b;
     line-height: 1em;
     margin-bottom: 8px;
@@ -2368,7 +2393,7 @@ a {
 
 .small-block .small-block-liste .small-block-item .small-block-item-infos .small-block-item-title {
     color: #212121;
-    font-family: 'Montserrat', sans-serif;
+    font-family: n001004t;
     -moz-transition: all 0.1s cubic-bezier(0.13, 0.66, 0.83, 0.67);
     -o-transition: all 0.1s cubic-bezier(0.13, 0.66, 0.83, 0.67);
     transition: all 0.1s cubic-bezier(0.13, 0.66, 0.83, 0.67);
@@ -2389,7 +2414,7 @@ a {
 
 .small-block .small-block-liste .small-block-item .small-block-region-list li {
     display: inline;
-    font-family: 'Montserrat', sans-serif;
+    font-family: n001004t;
     font-size: 1.071em;
     line-height: 2;
     color: #616161;
@@ -2429,7 +2454,7 @@ a {
 
 .pagination li a, .pagination li span {
     color: #9e9e9e;
-    font-family: 'Montserrat', sans-serif;
+    font-family: n001004t;
     font-size: 1.071em;
     line-height: 2;
 }
@@ -2449,17 +2474,17 @@ a {
 .article-categorie.default {
     display: inline-block;
     padding: 5px 8px;
-    background: #31124b;
+    background: #ff9800;
     color: white;
     font-size: 0.929em;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: n001004t;
 }
 
 .page-title {
     position: relative;
     z-index: 10;
-    font-family: 'Montserrat', sans-serif;
+    font-family: n001006t;
     font-size: 3.214em;
     color: #212121;
     line-height: 1em;
@@ -2506,7 +2531,7 @@ a {
 }
 
 .cat-list li .cat-link svg {
-    fill: #31124b;
+    fill: #ff9800;
     display: block;
     width: 18px;
     height: 18px;
@@ -2823,7 +2848,7 @@ a {
 
 .article-list.tiny .article .article-ss-title {
     font-family: n001004t;
-    color: #31124b;
+    color: #ff9800;
     font-size: 1.286em;
 }
 
@@ -2916,7 +2941,7 @@ a {
 
 .article-list.list .article .article-link .article-infos-wrapper .article-title .article-categorie {
     font-size: 0.8em;
-    color: #31124b;
+    color: #ff9800;
 }
 
 .article-list.list .article .article-link .article-infos-wrapper .article-metas {
@@ -3008,7 +3033,7 @@ a {
 }
 
 .twitter-typeahead .tt-menu .small-block-item .small-block-item-infos .small-block-item-sub-title {
-    color: #31124b;
+    color: #ff9800;
     font-family: n001004t;
     line-height: 1em;
     margin-bottom: 8px;
@@ -3045,7 +3070,7 @@ a {
 }
 
 .twitter-typeahead .tt-menu .more-link:hover {
-    border-right: 2px solid #31124b;
+    border-right: 2px solid #FF9800;
 }
 
 .agenda-home .page-title {
@@ -3195,7 +3220,7 @@ html {
 body {
     position: relative;
     color: #616161;
-    font-family: 'Montserrat', sans-serif;
+    font-family: FreigTexProBook;
     font-size: 1.4em;
     line-height: 1.5;
     overflow-x: hidden;
@@ -3502,7 +3527,7 @@ main .block-full-width .article-list.on-etait-a .article .article-info-wrapper {
     right: 50px;
     bottom: 40px;
     padding-left: 15px;
-    border-left: 2px solid #31124b;
+    border-left: 2px solid #ff9800;
     color: white;
     z-index: 10;
 }
@@ -3564,7 +3589,7 @@ main .article-full .content-header .article-title .limit {
 main .article-full .content-header .article-edit {
     margin: 20px 0;
     background: black;
-    color: #31124b;
+    color: #ff9800;
     font-family: n001006t;
     font-size: 1.5em;
 }
@@ -3623,7 +3648,7 @@ main .article-full .article-body h5 {
 }
 
 main .article-full .article-body h4 {
-    color: #31124b
+    color: #ff9800;
     font-family: n001006t;
     font-size: 1.714em;
 }
@@ -3649,7 +3674,7 @@ main .article-full .article-body strong {
 
 main .article-full .article-body a {
     font-family: n001004t;
-    color: #31124b;
+    color: #ff9800;
 }
 
 main .article-full .article-body a:hover {
@@ -3661,7 +3686,7 @@ main .article-full .article-body iframe {
 }
 
 main .article-full .concours h4 {
-    color: #31124b;
+    color: #ff9800;
     font-family: n001004t;
     font-size: 1.714em;
     line-height: 1.08;
@@ -3709,7 +3734,7 @@ main .article-full .concours .form-concours input {
 }
 
 main .article-full .concours .form-concours .input-error input {
-    background: #31124b;
+    background: #ff9800;
     color: white;
 }
 
@@ -3772,7 +3797,7 @@ main .article-full .concours .conditions .error {
 }
 
 main .article-full .concours .conditions .checkbox-error {
-    background: #31124b;
+    background: #ff9800;
     color: white;
     padding: 10px;
     margin-bottom: 20px;
@@ -3804,7 +3829,7 @@ main .article-full .concours .submit-button input {
     font-family: n001004t;
     font-size: 1.286em;
     line-height: 2;
-    background: #31124b;
+    background: #ff9800;
     padding: 10px 20px;
     border: none;
     -webkit-appearance: none;
@@ -3813,7 +3838,7 @@ main .article-full .concours .submit-button input {
 
 main .article-full .concours .submit-button input:hover {
     background: white;
-    color: #31124b;
+    color: #ff9800;
 }
 
 main .article-full .partenaire {
@@ -3907,7 +3932,7 @@ main .redacteur .redacteur-infos .redacteur-infos-wrapper {
 
 main .redacteur .redacteur-infos .redacteur-infos-wrapper .redacteur-poste {
     font-family: n001004t;
-    color: #31124b;
+    color: #ff9800;
     font-size: 1.286em;
     text-transform: uppercase;
     line-height: 1em;
@@ -4100,7 +4125,7 @@ main .agenda-full-list .agenda-full-item .agenda-full-link .agenda-item-wrapper 
 
 main .agenda-full-list .agenda-full-item .agenda-full-link .agenda-item-wrapper .event-header-infos-date .event-date {
     font-family: n001004t;
-    color: #31124b;
+    color: #ff9800;
 }
 
 main .agenda-full-list .agenda-full-item .agenda-full-link .agenda-item-wrapper .event-header-infos-date .event-lieu {
@@ -4178,7 +4203,7 @@ main .main-content.agenda-detail .content .event-full .event-header-wrapper .eve
 
 main .main-content.agenda-detail .content .event-full .event-header-wrapper .event-header .event-header-infos .event-header-infos-date {
     font-family: n001004t;
-    color: #31124b;
+    color: #ff9800;
     font-size: 1.286em;
     line-height: 2;
 }
@@ -4274,7 +4299,7 @@ main .main-content.agenda-detail .content .event-full .event-content-wrapper .ev
 }
 
 main .main-content.agenda-detail .content .event-full .event-content-wrapper .event-body-wrapper .event-body .event-body-no-exist {
-    background: #31124b;
+    background: #ff9800;
     color: white;
     padding: 10px 20px;
     font-family: n001002t;
@@ -4347,7 +4372,7 @@ main .main-content.agenda-detail .content .event-full .event-content-wrapper .ev
 }
 
 main .main-content.agenda-detail .content .event-full .event-content-wrapper .event-body-wrapper .event-body .event-body-header .dropdown-select .event-body-selector li:hover {
-    color: #31124b;
+    color: #ff9800;
 }
 
 main .main-content.agenda-detail .content .event-full .event-content-wrapper .event-body-wrapper .event-body .event-body-header .dropdown-select .event-body-selector li:hover::after {
@@ -4355,7 +4380,7 @@ main .main-content.agenda-detail .content .event-full .event-content-wrapper .ev
 }
 
 main .main-content.agenda-detail .content .event-full .event-content-wrapper .event-body-wrapper .event-body .event-body-header .dropdown-select .event-body-selector li.active {
-    color: #31124b;
+    color: #ff9800;
 }
 
 main .main-content.agenda-detail .content .event-full .event-content-wrapper .event-body-wrapper .event-body .event-body-header .dropdown-select .event-body-selector li.active::after {
@@ -4434,7 +4459,7 @@ main .main-content.agenda-detail .content .event-full .event-content-wrapper .ev
 
 main .main-content.agenda-detail .content .event-full .event-content-wrapper .event-body-wrapper .event-body .event-body-content .event-editions li .event-soirees .event-soiree .event-soiree-desc .event-soiree-desc-infos .heure {
     font-family: n001004t;
-    color: #31124b;
+    color: #ff9800;
 }
 
 main .main-content.agenda-detail .content .event-full .event-content-wrapper .event-body-wrapper .event-body .event-body-content .event-editions li .event-soirees .event-soiree .event-soiree-desc .event-soiree-desc-infos .heure .icon {
@@ -4515,7 +4540,7 @@ main .main-content.agenda-detail .content .event-full .event-content-wrapper .ev
     right: 50px;
     bottom: 40px;
     padding-left: 15px;
-    border-left: 2px solid #31124b;
+    border-left: 2px solid #ff9800;
     color: white;
     z-index: 10;
 }
@@ -4581,7 +4606,7 @@ main .main-content.agenda-detail .content .event-full .event-content-wrapper .ev
 
 main .main-content.agenda-detail .content .event-full .event-content-wrapper .event-body-wrapper .event-body .event-body-content .event-actualites .article a .article-title time {
     font-family: n001004t;
-    color: #31124b;
+    color: #ff9800;
 }
 
 main .main-content.agenda-detail .content .event-full .event-content-wrapper .event-body-wrapper .event-body .event-body-content .event-actualites .article a .article-title time .icon {
@@ -4650,7 +4675,7 @@ footer .newsletter-subscription .newsletter-subscription-wrapper .newsletter-sub
     text-align: center;
     width: 100%;
     float: left;
-    background-color: #31124b;
+    background-color: #ff9800;
     border: none;
     height: 50px;
     color: white;
@@ -4680,7 +4705,7 @@ footer .newsletter-subscription .newsletter-subscription-wrapper .newsletter-sub
     width: 50px;
     height: 50px;
     border: none;
-    background: #31124b;
+    background: #ff9800;
     -webkit-appearance: none;
     cursor: pointer;
     color: white;
@@ -4694,7 +4719,7 @@ footer .newsletter-subscription .newsletter-subscription-wrapper .newsletter-sub
 
 footer .newsletter-subscription .newsletter-subscription-wrapper .newsletter-subscription-form input.submit:hover {
     background: #212121;
-    color: #31124b;
+    color: #ff9800;
 }
 
 footer .footer-top {
@@ -4731,7 +4756,7 @@ footer .footer-top nav .menu li.last a {
 }
 
 footer .footer-top nav .menu li.last a:hover {
-    color: #31124b;
+    color: #ff9800;
 }
 
 footer .footer-bottom {
