@@ -193,7 +193,7 @@ iframe {
 .login100-form-title {
   width: 100%;
   display: block;
-  font-family: Montserrat-Medium;
+  font-family: "Montserrat-Medium";
   font-size: 39px;
   color: #555555;
   line-height: 1.2;
@@ -204,7 +204,7 @@ iframe {
 [ Button sign in with ]*/
 .btn-face,
 .btn-google {
-  font-family: Montserrat-SemiBold;
+  font-family: "Montserrat-SemiBold";
   font-size: 18px;
   line-height: 1.2;
 
@@ -257,7 +257,7 @@ iframe {
 
 .btn-face {
   color: #fff;
-  background-color: #3b5998;
+  background-color: #31124B;
 }
 
 .btn-face i {
