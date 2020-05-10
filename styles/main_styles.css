@@ -41,13 +41,18 @@
 ***********/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
-@font-face
-{
-	font-family: 'Beyond';
-	src: url('../fonts/beyond_the_mountains.otf')  format('truetype'),
-		 url('../fonts/beyond_the_mountains.ttf')  format('opentype');
+
+
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url('../fonts/montserrat/Montserrat-Medium.ttf'); 
 }
 
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url('../fonts/montserrat/Montserrat-SemiBold.ttf'); 
+}
 /*********************************
 2. Body and some general stuff
 *********************************/
@@ -62,7 +67,7 @@
 }
 body
 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Monserrat-Medium';
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
@@ -83,7 +88,7 @@ ul
 }
 p
 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Monserrat-Medium';
 	font-size: 14px;
 	line-height: 2;
 	font-weight: 400;
@@ -140,7 +145,7 @@ h4{font-size: 18px;}
 h5{font-size: 14px;}
 h1, h2, h3, h4, h5, h6,
 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Monserrat-Medium';
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -323,6 +328,87 @@ section
 	background: rgba(54, 19, 84, 0.85);
 }
 
+
+
+
+
+
+
+
+
+.hero-background {
+    overflow: hidden;
+    position: relative;
+    background: #31124B;
+    background: #31124B;
+    background: #31124B;
+    background: #31124B;
+}
+
+
+
+.hero {
+    position: relative;
+    z-index: 999;
+    padding-bottom: 60px;
+}
+
+
+
+.mouse:hover {
+    transform: translateY(5px);
+}
+
+
+.hero-right {
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+.hero-btn {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: #25F18B;
+    border-radius: 10px;
+    border: 1px solid #25F18B;
+    width: 210px;
+    height: 51px;
+    color: white;
+    margin: 30px auto;
+}
+
+.hero-btn:hover {
+    background-color: #6affb4;
+    color: white;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+    -moz-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+    box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+}
+
+.header-headline {
+    padding-top: 0;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.header-running-text {
+    text-align: center;
+    max-width: 287px;
+    line-height: 1.5;
+    margin: auto;
+}
+
+.strips {
+    position: absolute;
+    max-width: 1280px;
+}
+
+
 /*********************************
 3.1 Top Bar
 *********************************/
@@ -456,7 +542,7 @@ align-items: center;
 }
 .main_nav_item a
 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Monserrat-Medium';
 	font-size: 13px;
 	font-weight: 600;
 	color: #FFFFFF;
@@ -1518,7 +1604,7 @@ align-items: center;
 }
 .contact_title
 {
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 700;
 	color: #FFFFFF;
 	text-transform: uppercase;
@@ -1560,12 +1646,12 @@ align-items: center;
 {
 	font-size: 13px;
 	font-weight: 700;
-	color: #fff;
+	color: #31124b;
 	text-transform: uppercase;
 	line-height: 53px;
-	padding-left: 20px;
+	padding-left: 50px;
 	padding-right: 20px;
-	background: #31124b;
+	background: #FFFFFF;
 	-webkit-transform: translateY(15px);
 	-moz-transform: translateY(15px);
 	-ms-transform: translateY(15px);
@@ -4836,7 +4922,52 @@ footer .footer-bottom .menu-bottom li.last {
 
 
 
+/*Cookie*/
 
+#cookieConsent {
+    background-color: rgba(54, 19, 84, 0.85);
+    min-height: 26px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    line-height: 26px;
+    padding: 8px 0 8px 30px;
+    font-family: "Montserrat-Medium";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+}
+#closeCookieConsent {
+    display: block;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    font-weight: bold;
+
+    
+}
+#closeCookieConsent:hover {
+    color: #FFF;
+}
+#cookieConsent a.cookieConsentOK {
+    background-color: white !important;
+    color: #000;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    float: right;
+    margin: 0 60px 0 10px;
+}
+#cookieConsent a.cookieConsentOK:hover {
+    background-color: #E0C91F;
+}
+/*Cookie Consent End*/
 
 
 
