@@ -767,6 +767,7 @@ align-items: center;
 	position: absolute;
 	top: 60%;
 	left: 50%;
+    
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
@@ -781,7 +782,7 @@ align-items: center;
 .home_slider_content h1:first-child
 {
 	font-size: 112px;
-	font-weight: 900;
+	font-weight: 800;
 	color: #FFFFFF;
 	text-transform: uppercase;
 }
@@ -1666,9 +1667,7 @@ align-items: center;
 }
 .footer_logo
 {
-	position: absolute;
-	left: 0;
-	top: -24px;
+
 }
 .footer_about_text
 {

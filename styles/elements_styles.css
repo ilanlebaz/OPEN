@@ -1141,7 +1141,9 @@ section
 {
 	position: absolute;
 	left: 0;
-	top: -24px;
+	top: -300px;
+    opacity: 5%;
+    image-orientation: -90deg;
 }
 .footer_about_text
 {
