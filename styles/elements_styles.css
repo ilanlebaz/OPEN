@@ -435,52 +435,17 @@ section
 }
 .header.scrolled .main_nav_col
 {
-	height: 100px;
+	height: 50px;
 }
 
-/*********************************
-3.2 Logo
-*********************************/
 
-.logo_container
-{
-	-webkit-transform: translateY(-6px);
-	-moz-transform: translateY(-6px);
-	-ms-transform: translateY(-6px);
-	-o-transform: translateY(-6px);
-	transform: translateY(-6px);
-}
-.header.scrolled .logo_container
-{
-	-webkit-transform: none;
-	-moz-transform: none;
-	-ms-transform: none;
-	-o-transform: none;
-	transform: none;
-}
-.logo a
-{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
-	color: #f4f4f8;
-	font-weight: 800;
-	text-transform: uppercase;
-}
-.logo a img
-{
-	display: inline-block;
-	vertical-align: baseline;
-	margin-right: 9px;
-	-webkit-transform: translateY(2px);
-	-moz-transform: translateY(2px);
-	-ms-transform: translateY(2px);
-	-o-transform: translateY(2px);
-	transform: translateY(2px);
-}
 
 /*********************************
 3.3 Main Nav
 *********************************/
+
+
+
 
 .main_nav_container
 {
@@ -490,7 +455,6 @@ section
 {
 	position: relative;
 	display: inline-block;
-	margin-right: 40px;
 }
 .main_nav_item:last-child
 {
