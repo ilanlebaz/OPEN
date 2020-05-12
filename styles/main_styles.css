@@ -4031,7 +4031,7 @@ main .agenda-block .small-block:last-child {
 }
 
 main .block-appli {
-    background-image: url('../images/appli.jpg');
+    background-image: url('../images/appli.png');
     background-size: cover;
     background-position: center center;
     display: -webkit-box;
@@ -4039,7 +4039,7 @@ main .block-appli {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    padding: 20px 60px;
+    padding: 111px;
 }
 
 main .block-appli .block-appli-image {
@@ -4065,7 +4065,7 @@ main .block-appli .block-appli-infos .block-appli-title {
 
 main .block-appli .block-appli-infos .block-appli-desc {
     color: white;
-    font-family: FreigTexProBookIt;
+    font-family: "Montserrat-Medium";
     font-size: 1.714em;
     line-height: 1.5;
     padding-bottom: 20px;
@@ -4074,7 +4074,9 @@ main .block-appli .block-appli-infos .block-appli-desc {
 }
 
 main .block-appli .block-appli-infos .block-appli-download a {
-    margin-right: 20px;
+    float: right;
+    
+    
 }
 
 main .agenda-full-list .agenda-full-item:hover .agenda-full-link .festival-image img {
