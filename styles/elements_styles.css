@@ -1127,6 +1127,7 @@ section
 	font-weight: 700;
 	color: #FFFFFF;
 	text-transform: uppercase;
+    font-family: "Montserrat-Medium";
 }
 
 /*********************************
@@ -1136,6 +1137,8 @@ section
 .footer_about
 {
 	padding-top: 67px;
+        font-family: "Montserrat-Medium";
+
 }
 .footer_logo
 {
@@ -1150,6 +1153,8 @@ section
 	font-size: 14px;
 	font-weight: 600;
 	color: #FFFFFF;
+        font-family: "Montserrat-Medium";
+
 }
 .footer_social_item
 {
@@ -1238,16 +1243,22 @@ section
 {
 	margin-top: -4px;
 	padding-left: 1px;
+        font-family: "Montserrat-Medium";
+
 }
 .footer_blog_title a
 {
 	font-size: 14px;
 	font-weight: 400;
 	color: #FFFFFF;
+        font-family: "Montserrat-Medium";
+
 }
 .footer_blog_title a:hover
 {
 	color: #fa9e1b;
+        font-family: "Montserrat-Medium";
+
 }
 .footer_blog_date
 {
@@ -1291,6 +1302,8 @@ section
 	line-height: 33px;
 	padding-left: 25px;
 	padding-right: 25px;
+        font-family: "Montserrat-Medium";
+
 }
 
 /*********************************
@@ -1322,62 +1335,14 @@ section
 	color: #FFFFFF;
 	line-height: 2.14;
 	margin-top: -4px;
+        font-family: "Montserrat-Medium";
+
 }
 .contact_info_item:hover .contact_info_text,
 .contact_info_item:hover .contact_info_text a
 {
 	color: #fa9e1b;
+        font-family: "Montserrat-Medium";
+
 }
 
-/*********************************
-7. Copyright
-*********************************/
-
-.copyright
-{
-	background: #1f0733;
-}
-.copyright_content
-{
-	height: 52px;
-}
-.copyright_content div
-{
-	font-size: 12px;
-	font-weight: 600;
-	color: #685677;
-}
-.footer_nav_container
-{
-	height: 52px;
-}
-.footer_nav
-{
-	
-}
-.footer_nav_list
-{
-	font-size: 0px;
-}
-.footer_nav_item
-{
-	display: inline-block;
-	margin-right: 40px;
-}
-.footer_nav_item a
-{
-	font-size: 12px;
-	font-weight: 600;
-	color: #685677;
-	text-transform: uppercase;
-	line-height: 2;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.footer_nav_item a:hover
-{
-	color: #FFFFFF;
-}
